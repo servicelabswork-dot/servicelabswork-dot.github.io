@@ -1,0 +1,42 @@
+/* index.css */
+
+:root {
+	--primary: #f8fafc;
+	--primary-dark: #0f172a;
+	--accent: #3b82f6;
+	--accent-glow: #2563eb;
+	--bg-main: #0b1120;
+	--bg-alt: #111827;
+	--bg-card: #1e293b;
+	--text-main: #e2e8f0;
+	--text-muted: #94a3b8;
+	--border-color: #334155;
+}
+
+body {
+	background-color: var(--bg-main);
+	color: var(--text-main);
+	font-family: "Inter", sans-serif;
+}
+
+.font-mono {
+	font-family: "JetBrains Mono", monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--bg-main);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--border-color);
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--accent);
+}
